@@ -1,0 +1,211 @@
+/* common shared styles*/  
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+header{
+    margin-top: 100px;
+    position: relative;
+    width: 1920px;
+    height: 850px;
+    background-color: rgba(229, 84, 115, 0.10);  
+    display: flex; 
+    justify-content: space-around; 
+    margin-bottom: 100px;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+.banner .profile-pic{
+    margin-top: 100px;
+    max-width: 300px;
+    text-align: right;
+    margin-right: 240px;
+}
+
+.banner-content{
+    max-width: 600px;
+}
+
+.banner-title{
+    font-size: 80px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.about{
+    position: relative;
+    text-align: center;
+}
+
+.profile-pic1{
+    max-width: auto;
+    text-align: right;
+    height: 800px;
+    margin-top: 10px;
+}
+
+.profile-pic{
+    max-width: 310px;
+    text-align: right;
+    height: 450px;
+    margin-top: 30px;
+}
+.about-info1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    margin-right: 3%;
+    flex-shrink: 0;
+    margin-bottom: 90px;
+    margin-top: 30px;
+}
+.about-info2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+    margin-right: 3%;
+    flex-shrink: 0;
+    margin-bottom: 90px;
+    margin-top: 20px;
+}
+.about-info3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    margin-bottom: 90px;
+}
+
+
+.about-info-container{
+    position: relative;
+    text-align: center;
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: space-around;
+}
+
+.service-info-container{
+    justify-content: space-around;
+    background-color: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.same-day-delivery{
+    margin-top: 100px;
+}
+
+.fresh flowers{
+    
+}
+
+.free support{
+    
+}
+
+.hot-deal{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-content{
+    position: relative;
+    text-align: center;
+    max-width: 500px;
+}
+
+.instagram{
+    position: relative;
+    text-align: center;
+}
+.instagram-info-container{
+    position: relative;
+    text-align: center;
+    display: flex; 
+    justify-content: space-around;  
+    margin-bottom: 100px;
+}
+
+
+
+.get the latest deals{
+    display: flex;
+}
+
+
+
+.background-container {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.footer-container{
+    margin-left: 250px;
+    margin-top: 500px;
+    position: relative;
+    text-align: center;
+    background: #111010;
+    width: 1922px;
+    height: 449px;
+    margin-top: 50px; 
+}
+
+.footer-title{
+    padding-top: 150px;
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+.shop{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-text{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.footer-copy-right{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
